@@ -4,7 +4,7 @@ from dagger import dag, field, function, object_type
 
 @object_type
 class CustomSdk:
-    sdk_source_dir: dagger.Directory
+    sdk_source_dir: dagger.Directory = field()
     required_paths: list[str] = field(default=list)
 
     @function
