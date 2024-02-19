@@ -1,0 +1,12 @@
+{
+  "name": "custom-sdk",
+  "sdk": "python",
+  "dependencies": [
+    {
+      "name": "python-sdk",
+      "source": "github.com/dagger/dagger/sdk/python/runtime@965a7323232d939330a59e1eb211ebb16132f47f"
+    }
+  ],
+  "source": "dagger",
+  "engineVersion": "v0.9.10"
+}
